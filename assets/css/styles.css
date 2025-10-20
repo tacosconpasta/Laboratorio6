@@ -1,0 +1,22 @@
+/**/
+:root {
+  --primario-color-900: #033d76;
+  --primario-color-800: #0059ae;
+  --primario-color-700: #0063df;
+  --primario-color-600: #0076ff;
+  --primario-color-500: #0090ff;
+  --primario-color-400: #00b9ff;
+  --primario-color-300: #70eaff;
+  --primario-color-200: #b3eaf7;
+  --primario-color-100: #cff5ff;
+  --primario-color-50: #eafbff;
+
+  --primario-fuente: "Instrument Sans";
+}
+
+/*Automáticamente colocar fuentes, colores de texto y colores de fondo, mediante herencia*/
+body {
+  background-color: var(--primario-color-50);
+  color: var(--primario-color-900);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
